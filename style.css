@@ -1,0 +1,65 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+*{margin:0px}
+body {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  background: linear-gradient(white,#f2e9e4,#FFCAD4);
+  colour: #22223B;
+}
+.c-site-header{
+  text-align:right;
+  background: #4A4E69;
+  margin-bottom: 50px;
+}
+a{
+  text-decoration:none;
+  font-size: 40px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 40px;
+  transition: .3s background;
+  colour: #C9ADA7;
+  text-shadow: 0px 0px 10px white;
+}
+a:hover{
+  background: #f2e9e4;
+  colour: #22223B;
+}
+main{
+  font-size: 20px;
+  border: 10px solid #4A4E69;
+  border-radius: 40px;
+  margin: 50px 100px;
+  padding: 40px;
+}
+.flex{
+  display:flex;
+  margin: 40px;
+}
+img{
+  height: 500px;
+  width: 700px;
+  border: 5px solid #4A4E69;
+  border-radius: 50%;
+  padding: 10px; 
+}
+.c-site-footer{
+  text-align:center;
+  background: #4A4E69;
+  margin-top: 70px;
+}
+a{
+  text-decoration:none;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 40px;
+  transition: .2s background;
+  colour: #C9ADA7;
+  text-shadow: 0px 0px 10px white;
+}
