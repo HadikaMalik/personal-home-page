@@ -69,3 +69,17 @@ document.getElementById('button_remove').addEventListener('click', (event) => {
   display_the_rolls();
 
 });
+
+document.getElementById('Day').addEventListener('click', (event) => {
+  let element_page = document.getElementById('page');
+  element_page.style.backgroundColor = '#ffff00';
+  element_page.style.color = '#000000';
+
+});
+
+document.getElementById('Night').addEventListener('click', (event) => {
+  let element_page2 = document.getElementById('page');
+  element_page2.style.backgroundColor = '#000000';
+  element_page2.style.color = '#ffff00';
+
+});

@@ -64,3 +64,47 @@ a{
   text-shadow: 0px 0px 10px white;
 }
 
+#dice_roll {
+  background-color: #FFCAD4;
+  border: 10px solid #4A4E69;
+  padding: 20px;
+  box-sizing: border-box; 
+  margin: 0 auto; 
+  max-width: 600px; 
+  text-align: center; 
+}
+#dice_roll p {
+  margin: 10px 0;
+}
+
+#dice_roll ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#dice_roll button {
+  margin-top: 10px;
+}
+
+#Day,
+#Night {
+  font-size: 24px; /* Increase font size */
+  font-weight: bold;
+  padding: 10px 20px; /* Increase padding for a larger button area */
+  background-color: #4A4E69; /* Add a background color */
+  color: white; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Add transition effect */
+  margin: 5px; /* Add some spacing between buttons */
+}
+
+#Day:hover,
+#Night:hover {
+  background-color: #22223B; /* Change background color on hover */
+}
+
+
+
+
