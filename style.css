@@ -71,7 +71,7 @@ a{
   box-sizing: border-box; 
   margin: 0 auto; 
   max-width: 600px; 
-  text-align: center; 
+  text-align: left; 
 }
 #dice_roll p {
   margin: 10px 0;
@@ -105,6 +105,25 @@ a{
   background-color: #22223B; /* Change background color on hover */
 }
 
+#cyfproject{
+  /* background-color: #FFCAD4; */
+  /* border: 10px solid #4A4E69;
+  padding: 20px;
+  box-sizing: border-box; 
+  margin: 0 auto; 
+  max-width: 600px;  */
+  text-align: left; 
+}
 
+#products{
+  list-style: none
+}
 
+#list_imag{
+  height: 200px;
+  width: 400px;
+  border: 5px solid #4A4E69;
+  border-radius: 50%;
+  padding: 10px; 
+}
 
